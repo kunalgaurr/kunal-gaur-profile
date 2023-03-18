@@ -1,0 +1,32 @@
+.left-container {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  padding: 10vh 10vw;
+  background: linear-gradient(
+      145deg,
+      rgba(15, 209, 132, 0.7) 0%,
+      rgba(10, 104, 123, 0.7) 100%
+    ),
+    url(./assets/img.jpeg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+.left-container-wrapper {
+  text-align: center;
+  margin-top: 50vh;
+  position: fixed;
+}
+.left-container-wrapper > h1 {
+  font-weight: 500;
+  color: white;
+}
+.left-container-wrapper > p {
+  font-weight: 500;
+  color: white;
+}
